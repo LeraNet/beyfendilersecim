@@ -1,0 +1,15 @@
+{
+    "sunucu_uyesayisi": 14,
+    "adaylar": [
+        "Lera",
+        "Ardayu",
+        "Swissy",
+        "Afrromom"
+    ],
+    "oylar": {
+        "Lera": 5,
+        "Afrromom": 0,
+        "Ardayu": 5,
+        "Swissy": 5
+    }
+}

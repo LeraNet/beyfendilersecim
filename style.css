@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.adaylar {
+    background-color: #00334D;
+    width: auto;
+    color: white;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+}
+
+.adaylar h1 {
+    font-size: 16px;
+}
+
+.adaylar h2 {
+    font-size: 12px;
+}
+
+.adaylar .fr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.adaylar .fr .aday:nth-child(1) {
+    --renk: green;
+}
+
+.adaylar .fr .aday:nth-child(2) {
+    --renk: red;
+}
+
+.adaylar .fr .aday:nth-child(3) {
+    --renk: purple;
+}
+
+.adaylar .fr .aday:nth-child(4) {
+    --renk: yellow;
+}
+
+.adaylar .fr .aday {
+    flex: auto;
+    background-color: white;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.aday:hover {
+    transform: scale(1.05);
+}
+
+.adaylar .fr .aday h3 {
+    display: block;
+    color: white;
+    background-color: var(--renk);
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+}
+
+.adaylar .fr .aday .xd {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.adaylar .fr .aday .xd img {
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.adaylar .fr .aday .xd .yuzde {
+    color: var(--renk);
+    font-size: 50px;
+}
+
+center {
+    all: unset;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: auto;
+    height: 200px;
+    margin: auto;
+}
+
+.kediradar {
+    position: fixed;
+    right: -120px;
+    top: 15px;
+    background-color: black;
+    color: green;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.712);
+    transition: all 0.2s ease-in-out;
+}
+
+.kediradar img {
+    width: 50px;
+    height: 50px;
+}
+
+.kediradar:hover {
+    transform: scale(1.05);
+}
